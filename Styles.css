@@ -1,0 +1,115 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #d2e2e6;
+  height: 100px;
+}
+
+.logo img {
+  height: 100px;
+  margin-left: 10px;
+}  
+
+.title h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2c0c9e;
+}
+
+.register button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.register button:hover {
+cursor: pointer;
+background-color: #5b9ee6;
+}
+
+/* MAIN*/
+
+main {
+  padding: 20px;
+  background-color: #e9e8ca;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.courses a {
+  margin-bottom: 20px;
+  flex-basis: calc(50% - 10px);
+  height: 250px;
+  overflow: hidden;
+}
+
+.courses img {
+  max-width: 500px;
+  height: auto;
+}
+
+.courses a:hover img {
+  transform: scale(1.1);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #ffefdf;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  text-align: left;
+  background-color: #f3f0f0;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: black;
+}
+
+.telegram-button {
+  margin-top: 15px;
+}
+

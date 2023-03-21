@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html and="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Розклад курсів академії</title>
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Logo_templ.jpg" alt="Логотип">
+      </div>
+      <div class="title">
+        <h1>Київська ведична академія свідомості Крішни</h1>
+      </div>
+      <div class="register">
+        <button id="register-button">Зареєструватися</button>
+      </div>
+    </header>
+    <main>
+      <div class="courses">
+        <a target="_blank" href="http://veda-kiev.org.ua/novosti/ogoloshu-mo-nab-r-student-v-na-2021-2022-navchalniy-r-k-shkola-bgakt.html"><img src="ШБ.jpg" alt="Школа бгакті"></a>
+        <a target="_blank" href="#"><img src="БШ.jpg" alt="Бгакті шастри"></a>
+        <a target="_blank" href="#"><img src="БВ.jpg" alt="Бгакті вайбгава"></a>
+        <a target="_blank" href="http://veda-kiev.org.ua/novosti/podovzheno-nab-r-na-ochniy-kurs-uchn-vstvo-v-skkon-teper-z-8-serpnya-po-12-veresnya-2020-roku.html"><img src="УІ.jpg" alt="Учнівство в ІСККОН"></a>
+      </div>
+    </main>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="close-button" class="close">&times;</span>
+        <form>
+          <label for="name-input">Ім'я:</label>
+          <input type="text" id="name-input" name="name"><br>
+
+          <label for="phone-input">Телефон:</label>
+          <input type="tel" id="phone-input" name="phone"><br>
+
+          <label for="email-input">E-mail:</label>
+          <input type="email" id="email-input" name="email"><br>
+
+          <label for="password-input">Пароль:</label>
+          <input type="password" id="password-input" name="password"><br>
+
+          <label for="confirm-password-input">Підтвердження паролю:</label>
+          <input type="password" id="confirm-password-input" name="confirm-password"><br>
+
+          <input type="submit" value="Зареєструватися">
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2023 Bihun Andrii</p>
+      <a href="http://veda-kiev.org.ua/kontakti/kontakti">Контакти</a>
+      <div class="telegram-button">
+      <a href="tg://resolve?domain=@AcademyCoursesBot">Перейти до чату в Telegram</a> 
+      </div>
+    </footer>
+
+    <script src="JS_file.js"></script>
+  </body>
+</html>
+
